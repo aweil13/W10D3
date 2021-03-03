@@ -7,7 +7,7 @@ class Game extends React.Component {
 
     constructor(props){
         super(props);
-        let newBoard = new minesweeper.Board();
+        let newBoard = new minesweeper.Board(8, 8);
         this.state = {board: newBoard};
         this.updateGame = this.updateGame.bind(this);
     }
