@@ -1,0 +1,46 @@
+.modal{
+    display: none;
+}
+
+.modal.is-open{
+    display: block;
+}
+
+.modal-screen{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-form span{
+   position: relative;
+   left: 275px;
+}
+
+.modal-form h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.modal-close:hover {
+    color: #f00;
+    cursor: pointer;
+  }
+
+.modal-form{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-image: url(https://i.pinimg.com/originals/e5/a9/e8/e5a9e877bcacdc5713d2a8f98412762d.png);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 4px;
+}
